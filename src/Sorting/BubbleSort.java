@@ -12,7 +12,6 @@ public class BubbleSort {
 
     public static void Bubble_Sort(int[] BunchOfUnsortedValues){
         for (int mainElement = 0; mainElement < BunchOfUnsortedValues.length; mainElement++) {
-            // checking every value with the mainElement
             for (int secondElement = 1; secondElement < BunchOfUnsortedValues.length-mainElement; secondElement++) {
                 // checking and swapping the values
                 if(BunchOfUnsortedValues[secondElement-1] > BunchOfUnsortedValues[secondElement]){
