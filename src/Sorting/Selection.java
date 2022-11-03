@@ -1,10 +1,13 @@
 package Sorting;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Selection {
     public static void main(String[] args) {
-        int[] x = {8,7,6,1,0};
-        InsertionSort(x);
-        System.out.println();
+        int[] mainUnsortedArray = {8,7,6,1,0};
+        InsertionSort(mainUnsortedArray);
+        System.out.println(Arrays.toString(mainUnsortedArray));
     }
 
     public static void InsertionSort(int[] BunchOfUnsortedValues){
